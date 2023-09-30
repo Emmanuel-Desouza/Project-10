@@ -69,8 +69,11 @@ sudo systemctl status nginx
 
 ### 2. Assign an Elastic IP to your Nginx LB server and associate your domain name with this Elastic IP
 
+![Static IP](./images/elastic-IP.png)
+
 ### 3. Update A record in your registrar to point to Nginx LB using Elastic IP address
 
+![DNS](./images/dns.png)
 ### Check that your Web Servers can be reached from your browser using new domain name using HTTP protocol – http://<your-domain-name.com>
 
 ![HTTP](./images/http-souza.png)
